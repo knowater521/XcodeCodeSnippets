@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ly_btn</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    &lt;#instanceName#&gt; = [[UIButton alloc] init];
+    [&lt;#instanceName#&gt; addTarget:self action:@selector(&lt;#selector#&gt;) forControlEvents:UIControlEventTouchUpInside];
+    [&lt;#instanceName#&gt; setTitle:&lt;#(nullable NSString *)#&gt; forState:UIControlStateNormal];
+    [self.view addSubview:&lt;#(nonnull UIView *)#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>54387A89-4593-4DEC-9557-955C2432E79D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>OC New UIButton</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>OC New UIButton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
