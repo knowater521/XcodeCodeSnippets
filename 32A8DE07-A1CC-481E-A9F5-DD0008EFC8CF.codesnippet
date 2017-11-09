@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-dispatchafter</string>
+	<string>ly_method_colsure</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.main.asyncAfter(deadline: .now() + &lt;#seconds#&gt;) {
-    
-}</string>
+	<string>func checkUniqueness(_ completion: @escaping (_ isCanRegister: Bool) -&gt; Void)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E772ABB6-7616-42C2-9F95-9884388957EE</string>
+	<string>32A8DE07-A1CC-481E-A9F5-DD0008EFC8CF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>GCD dispatch_after snippet for Swift</string>
+	<string>Swift method colsure</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift dispatch_after</string>
+	<string>Swift method colsure</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

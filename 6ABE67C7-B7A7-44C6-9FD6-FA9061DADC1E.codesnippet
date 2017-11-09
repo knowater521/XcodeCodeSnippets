@@ -3,23 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-dispatchafter</string>
+	<string>ly_guard</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.main.asyncAfter(deadline: .now() + &lt;#seconds#&gt;) {
-    
-}</string>
+	<string>guard let &lt;#instancelName#&gt; = &lt;#exprssion#&gt; else {
+            print("WARNING: &lt;#xx is nil#&gt;")
+            return
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E772ABB6-7616-42C2-9F95-9884388957EE</string>
+	<string>6ABE67C7-B7A7-44C6-9FD6-FA9061DADC1E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>GCD dispatch_after snippet for Swift</string>
+	<string>Swift variable guard</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift dispatch_after</string>
+	<string>Swift variable guard</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

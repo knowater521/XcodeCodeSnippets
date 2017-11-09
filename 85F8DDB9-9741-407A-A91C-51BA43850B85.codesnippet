@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-dispatchafter</string>
+	<string>ly_fixme</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.main.asyncAfter(deadline: .now() + &lt;#seconds#&gt;) {
-    
-}</string>
+	<string>// FIXME: &lt;#statement#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E772ABB6-7616-42C2-9F95-9884388957EE</string>
+	<string>85F8DDB9-9741-407A-A91C-51BA43850B85</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>GCD dispatch_after snippet for Swift</string>
+	<string>Swift Fixme</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift dispatch_after</string>
+	<string>Swift Fixme</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
